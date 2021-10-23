@@ -3,9 +3,9 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Results from "../components/Results";
-import requests from "../Utils/requests";
+import requests from "../utils/requests";
 
-export default function Home() {
+export default function Home({ results }) {
   return (
     <div>
       <Head>
@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Nav /> console.log(props);
-      <Results />
+      <Nav />
+      <Results results={results} />
     </div>
   );
 }
@@ -28,7 +28,6 @@ export async function getServerSideProps(context) {
       requests[genre]?.url || requests.fetchTrending.url
     }`
   ).then((res) => res.json());
-
   return {
     props: {
       results: request.results,

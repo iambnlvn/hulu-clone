@@ -1,5 +1,5 @@
 module.exports = {
-  iamges: {
+  images: {
     domains: ["image.tmdb.org"],
   },
   reactStrictMode: true,
