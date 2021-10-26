@@ -14,6 +14,7 @@ export default function Home({ results }) {
           name="description"
           content="hulu clone using reactjs, nextjs,tailwindcss and tmdb api"
         />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
       <Nav />
@@ -27,7 +28,7 @@ export async function getServerSideProps(context) {
 
   const request = await fetch(
     `https://api.themoviedb.org/3${
-      requests[genre]?.url || requests.fetchTrending.url
+      requests[genre]?.url || requests.trending.url
     }`
   ).then((res) => res.json());
   return {
