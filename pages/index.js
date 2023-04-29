@@ -31,6 +31,11 @@ export async function getServerSideProps(context) {
       requests[genre]?.url || requests.trending.url
     }`
   ).then((res) => res.json());
+  if (!request) {
+    return {
+      notFound: true,
+    };
+  }
   return {
     props: {
       results: request.results,
