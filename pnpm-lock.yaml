@@ -32,7 +32,7 @@ importers:
     devDependencies:
       autoprefixer:
         specifier: ^10.3.7
-        version: 10.3.7(postcss@8.3.11)
+        version: 10.3.7(postcss@8.4.31)
       eslint:
         specifier: 7.32.0
         version: 7.32.0
@@ -40,11 +40,11 @@ importers:
         specifier: 11.1.2
         version: 11.1.2(eslint@7.32.0)(next@11.1.2(@babel/core@7.21.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.0.4))(typescript@5.0.4)
       postcss:
-        specifier: ^8.3.11
-        version: 8.3.11
+        specifier: ^8.4.31
+        version: 8.4.31
       tailwindcss:
         specifier: ^2.2.17
-        version: 2.2.17(autoprefixer@10.3.7(postcss@8.3.11))(postcss@8.3.11)
+        version: 2.2.17(autoprefixer@10.3.7(postcss@8.4.31))(postcss@8.4.31)
 
 packages:
 
@@ -1664,8 +1664,8 @@ packages:
     resolution: {integrity: sha512-2zO3b26eJD/8rb106Qu2o7Qgg52ND5HPjcyQiK2B98O388h43A448LCslC0dI2P97wCAQRJsFvwTRcXxTKds+Q==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.3.11:
-    resolution: {integrity: sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==}
+  postcss@8.4.31:
+    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -1904,8 +1904,8 @@ packages:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
     engines: {node: '>=10'}
 
-  source-map-js@0.6.2:
-    resolution: {integrity: sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==}
+  source-map-js@1.2.0:
+    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
     engines: {node: '>=0.10.0'}
 
   source-map@0.6.1:
@@ -2677,14 +2677,14 @@ snapshots:
 
   astral-regex@2.0.0: {}
 
-  autoprefixer@10.3.7(postcss@8.3.11):
+  autoprefixer@10.3.7(postcss@8.4.31):
     dependencies:
       browserslist: 4.21.5
       caniuse-lite: 1.0.30001481
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 0.2.1
-      postcss: 8.3.11
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.5: {}
@@ -4132,18 +4132,18 @@ snapshots:
   postcss-js@3.0.3:
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.3.11
+      postcss: 8.4.31
 
-  postcss-load-config@3.1.4(postcss@8.3.11):
+  postcss-load-config@3.1.4(postcss@8.4.31):
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
     optionalDependencies:
-      postcss: 8.3.11
+      postcss: 8.4.31
 
-  postcss-nested@5.0.6(postcss@8.3.11):
+  postcss-nested@5.0.6(postcss@8.4.31):
     dependencies:
-      postcss: 8.3.11
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.12
 
   postcss-selector-parser@6.0.12:
@@ -4161,11 +4161,11 @@ snapshots:
       nanoid: 3.3.6
       source-map: 0.6.1
 
-  postcss@8.3.11:
+  postcss@8.4.31:
     dependencies:
       nanoid: 3.3.6
       picocolors: 1.0.0
-      source-map-js: 0.6.2
+      source-map-js: 1.2.0
 
   prelude-ls@1.2.1: {}
 
@@ -4202,7 +4202,7 @@ snapshots:
     dependencies:
       commander: 8.3.0
       glob: 7.2.3
-      postcss: 8.3.11
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.12
 
   querystring-es3@0.2.1: {}
@@ -4417,7 +4417,7 @@ snapshots:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
 
-  source-map-js@0.6.2: {}
+  source-map-js@1.2.0: {}
 
   source-map@0.6.1: {}
 
@@ -4571,10 +4571,10 @@ snapshots:
 
   tailwind-scrollbar-hide@1.0.3: {}
 
-  tailwindcss@2.2.17(autoprefixer@10.3.7(postcss@8.3.11))(postcss@8.3.11):
+  tailwindcss@2.2.17(autoprefixer@10.3.7(postcss@8.4.31))(postcss@8.4.31):
     dependencies:
       arg: 5.0.2
-      autoprefixer: 10.3.7(postcss@8.3.11)
+      autoprefixer: 10.3.7(postcss@8.4.31)
       bytes: 3.1.2
       chalk: 4.1.2
       chokidar: 3.5.3
@@ -4595,10 +4595,10 @@ snapshots:
       node-emoji: 1.11.0
       normalize-path: 3.0.0
       object-hash: 2.2.0
-      postcss: 8.3.11
+      postcss: 8.4.31
       postcss-js: 3.0.3
-      postcss-load-config: 3.1.4(postcss@8.3.11)
-      postcss-nested: 5.0.6(postcss@8.3.11)
+      postcss-load-config: 3.1.4(postcss@8.4.31)
+      postcss-nested: 5.0.6(postcss@8.4.31)
       postcss-selector-parser: 6.0.12
       postcss-value-parser: 4.2.0
       pretty-hrtime: 1.0.3
